@@ -1,0 +1,46 @@
+@import '../scss/variable';
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:$light-color;
+    color: $dark-color;
+    font-family:$font-stack;
+    line-height: 1.5;
+}
+
+header{
+    padding: 16px;
+    background: $dark-color;
+    color: $light-color;
+    text-align: center;
+
+}
+
+.section{
+    padding:48px;
+    h3{
+        font-size: 32px;
+    }
+    &-a{
+        background-color: $primary-color;
+        color: #fff;
+    }
+    &-b{
+        background-color: $secondary-color;
+        color: #fff;
+    }
+}
+.section a{
+    color: #333;
+    text-decoration: none;
+    &:hover{
+        color: coral;
+    }
+}
+%btn-sharred{
+    
+}
